@@ -8,11 +8,11 @@ const Card = ({ data }) => {
         <h5 className="card-title m-0">{data.compnay}</h5>
         <p className="m-0">{data.name}.</p>
         <div className="m-0">
-          <p className="card-price m-0">₹{data.price}</p>
+          <h6 className="card-price m-0">₹{data.price}</h6>
           <span className="card-quantity">{data.quantity}</span>
         </div>
-        <div className="cart-button">
-          <button className=" btn btn-primary ">Add Item</button>
+        <div className=" card-button text-center">
+          <button className=" btn btn-sm btn-primary ">Add Item</button>
         </div>
       </div>
     </div>
