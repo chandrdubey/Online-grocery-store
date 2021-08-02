@@ -1,12 +1,12 @@
-.card{
+.product-card{
   width: 250px;
   height: 350px;
 }
 .app{
-  background: rgb(196, 196, 196);
+  background: rgb(192, 193, 211);
   min-height:750px;;
 }
-.card img{
+.product-card img{
     height: 200px;
     width: 150px;
     margin: 20px;
@@ -16,4 +16,20 @@
 }
 .card-quantity{
   float:right;
+}
+.navbar{
+ background:rgb(0, 11, 114);
+}
+.cart-card{
+  width: 100%;
+}
+.cart-card img{
+  height: 100px;
+  width: 75px;
+}
+.cart-page{
+  background:white;
+}
+.home-header{
+  color:rgb(0, 11, 114);
 }
